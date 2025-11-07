@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2024-10-14 03:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:19
 msgid "QGIS Server provides web map and feature services (WMS & WFS) using the same libraries as the GIS (QGIS) desktop application. Maps and print templates created in QGIS desktop can be published as web maps simply by copying the QGIS project file into the server directory. The resulting web maps look exactly the same as in the desktop. QGIS Server is usually run as CGI/FastCGI module within the Apache Webserver."
+msgstr ""
+
+#: ../../build/doc/overview/qgis_mapserver_overview.rst:None
+msgid "qgis_mapserver screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:30
@@ -90,7 +94,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:53
-msgid "**Website:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:55
@@ -106,7 +110,7 @@ msgid "**Supported Platforms:** Windows, Linux"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:61
-msgid "**Commercial Support:** https://www.qgis.org/en/site/forusers/commercial_support.html"
+msgid "**Commercial Support:** https://www.qgis.org/resources/support/commercial-support/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:67
@@ -117,3 +121,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -4,23 +4,25 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2021
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2024-09-27 22:36+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"eoxserver_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:15
 msgid "EOxServer"
@@ -64,6 +66,10 @@ msgstr ""
 "<gdal_overview>`, PROJ, y un :doc:`SpatiaLite <spatialite_overview>` o base "
 "de datos :doc:`PostGIS <postgis_overview>` ."
 
+#: ../../build/doc/overview/eoxserver_overview.rstNone
+msgid "eoxserver screenshot"
+msgstr "pantalla de eoxserver"
+
 #: ../../build/doc/overview/eoxserver_overview.rst:40
 msgid "Core Features"
 msgstr "Características Principales"
@@ -97,8 +103,8 @@ msgid ""
 "Proposed extensions to WCS including: GeoTIFF encoding, predefined "
 "projections (CRSs), scaling, and interpolation."
 msgstr ""
-"Propuesta de extensiones WCS incluyendo: codificación GeoTIFF,  proyecciones"
-" predefinida (CRSs),  e interpolación."
+"Propuesta de extensiones WCS incluyendo: codificación GeoTIFF, proyecciones "
+"predefinida (CRSs), e interpolación."
 
 #: ../../build/doc/overview/eoxserver_overview.rst:52
 msgid ""
@@ -118,11 +124,11 @@ msgstr "Publicación utilizando los siguientes formatos y agrupaciones:"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:59
 msgid "2-D EO Coverages derived from gmlcov:RectifiedGridCoverage"
-msgstr "Coberturas 2-D EO  derivadas de gmlcov:RectifiedGridCoverage"
+msgstr "Coberturas 2-D EO derivadas de gmlcov:RectifiedGridCoverage"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:60
 msgid "2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage"
-msgstr "Coberturas 2-D EO  derivadas de gmlcov:ReferenceableGridCoverage"
+msgstr "Coberturas 2-D EO derivadas de gmlcov:ReferenceableGridCoverage"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:61
 msgid "Dataset Series as a collection of EO Coverages e.g. in a time series"
@@ -184,10 +190,10 @@ msgstr "**Sitio web:** https://docs.eoxserver.org/en/stable/"
 #: ../../build/doc/overview/eoxserver_overview.rst:83
 msgid ""
 "**Licence:** `MIT-style license "
-"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
+"<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 msgstr ""
 "**Licencia:** `Licencia estilo-MIT "
-"<https://docs.eoxserver.org/en/latest/copyright.html#license>`_"
+"<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:85
 msgid "**Software Version:** |version-eoxserver|"
@@ -195,7 +201,7 @@ msgstr "**Versión de software:** |version-eoxserver|"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:87
 msgid "**Supported Platforms:** Linux, Windows, Mac"
-msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas compatibles:** Linux, Windows, Mac"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:89
 msgid "**API Interfaces:** Python"
@@ -203,10 +209,10 @@ msgstr "**Interfaces API:** Python"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:91
 msgid ""
-"**Support:** https://docs.eoxserver.org/en/latest/users/basics.html#where-"
+"**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
 "can-i-get-support"
 msgstr ""
-"**Soporte:** https://docs.eoxserver.org/en/latest/users/basics.html#where-"
+"**Soporte:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
 "can-i-get-support"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:96
@@ -216,4 +222,20 @@ msgstr "Inicio Rápido"
 #: ../../build/doc/overview/eoxserver_overview.rst:98
 msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
 msgstr ""
-":doc:`Documentación de inicio rápido  <../quickstart/eoxserver_quickstart>`"
+":doc:`Documentación de inicio rápido <../quickstart/eoxserver_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

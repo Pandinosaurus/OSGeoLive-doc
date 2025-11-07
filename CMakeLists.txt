@@ -1,9 +1,20 @@
-
-cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.12 FATAL_ERROR)
 if ( ${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR} )
     message(FATAL_ERROR "In-source builds not allowed.
     Please make a new directory (called a build directory) and run CMake from there.
     You may need to remove CMakeCache.txt." )
+endif()
+
+if(POLICY CMP0144)
+    cmake_policy(SET CMP0144 OLD)
+endif()
+
+if(POLICY CMP0167)
+    cmake_policy(SET CMP0167 OLD)
+endif()
+
+if(POLICY CMP0148)
+    cmake_policy(SET CMP0148 OLD)
 endif()
 
 #---------------------------------------------
@@ -13,6 +24,12 @@ endif()
 project(OSGeoLiveDoc LANGUAGES NONE)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
+
+set(iso_size "4.4" CACHE STRING "for osgeolive-X.X.iso")
+set(vm_7z_size "7.0" CACHE STRING "for osgeo-vm-X.X.7z")
+set(req_hd_size "22" CACHE STRING "required hard disk space")
+
+
 #---------------------------------------------
 #---------------------------------------------
 #---------------------------------------------
@@ -20,7 +37,7 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 #---------------------------------------------
 # Setting the version number
 #---------------------------------------------
-set(OSGeoLiveDoc_VERSION_MAJOR "14")
+set(OSGeoLiveDoc_VERSION_MAJOR "17")
 set(OSGeoLiveDoc_VERSION_MINOR "0")
 set(OSGeoLiveDoc_VERSION_PATCH "0")
 set(OSGeoLiveDoc_VERSION_DEV "")
@@ -31,13 +48,13 @@ set(OSGeoLiveDoc_NAME "OSGeoLive")
 #---------------------------------------------
 # minimum versions
 #---------------------------------------------
-set(SPHINX_MINIMUM_VERSION "1.1")
+set(SPHINX_MINIMUM_VERSION "4.0")
 
 
 #---------------------------------------------
 # Fining sphinx
 #---------------------------------------------
-find_package(Sphinx REQUIRED)
+find_package(Sphinx ${SPHINX_MINIMUM_VERSION} REQUIRED)
 if (NOT SPHINX_FOUND)
     message(WARNING "Sphinx not found. Cannot generate documentation!")
 #elseif (SPHINX_VERSION VERSION_LESS SPHINX_MINIMUM_VERSION)
@@ -152,7 +169,7 @@ message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 # TODO: figure out how to support this
 #  "el"   "hu"  "id"  "zh")
 #---------------------------------------------
-set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "ca"  "de"  "es"  "fi" "fr"  "it"  "ja"  "ko"  "pl"  "ru" "hu")
+set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "de" "es" "fi" "fr" "hu" "it" "ja" "nl" "pt" "sv" "tr" "zh_Hans")
 set(OSGeoLiveDoc_ENGLISH "en")
 
 #---------------------------------------------
@@ -214,7 +231,10 @@ INSERT_INTO_MAP("ko" "한국어")
 INSERT_INTO_MAP("pl" "Polski")
 INSERT_INTO_MAP("pt" "Portugus")
 INSERT_INTO_MAP("ru" "Русский")
-INSERT_INTO_MAP("zh" "中文")
+INSERT_INTO_MAP("sv" "Svenska")
+INSERT_INTO_MAP("nl" "Dutch")
+INSERT_INTO_MAP("tr" "Turkish")
+INSERT_INTO_MAP("zh_Hans" "中文")
 
 
 message(STATUS "OSGeoLiveDoc_BUILD_LANGUAGES = ${OSGeoLiveDoc_BUILD_LANGUAGES}")
@@ -237,13 +257,13 @@ MACRO(INSERT_INTO_MAP_KIND _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "")
       set(_TRGT  "")
     else ()
-      set(_TRGT 
+      set(_TRGT
 ".. image:: /images/logos/${_TARGET}.png
     :align: right
     :target: https://www.osgeo.org
 ")
     endif()
-      
+
     SET("OSGEO_KIND_${_KEY}" "${_TRGT}")
 ENDMACRO(INSERT_INTO_MAP_KIND)
 
@@ -253,7 +273,7 @@ MACRO(INSERT_INTO_MAP_LOGO _KEY _TARGET)
     else()
       set(_TRGT ":target: ${_TARGET}")
     endif()
-      
+
     SET("LOGO_${_KEY}"
  ".. image:: /images/projects/${_KEY}/logo_${_KEY}.png
     :align: right
@@ -290,12 +310,16 @@ MACRO(INSERT_INTO_MAP_VMDK _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "Y")
         set(_NOTE  " ")
     else()
-	set(_NOTE ".. note:: This  project is only included on the OSGeoLive virtual machine disk (VMDK)")
+	set(_NOTE ".. note:: This project is only included on the OSGeoLive virtual machine disk (VMDK)")
     endif()
 
     SET("VMDK_${_KEY}" "${_NOTE}")
 ENDMACRO(INSERT_INTO_MAP_VMDK)
 
+
+MACRO(INSERT_INTO_MAP_VERSION _KEY _TARGET)
+  SET("VERSION_${_KEY}" "${_TARGET}")
+ENDMACRO()
 
 MACRO(INSERT_INTO_MAP_NAME _KEY _TARGET)
     SET("NAME_${_KEY}" "${_TARGET}")
@@ -363,6 +387,7 @@ foreach(line ${OSGeoLiveDoc_PROJECTS_VERSIONS_FILE})
     INSERT_INTO_MAP_WEB("${project_page}" "${url_target}")
     INSERT_INTO_MAP_QUICK("${project_page}" "${want_quickstart}")
     INSERT_INTO_MAP_VMDK("${project_page}" "${on_iso}")
+    INSERT_INTO_MAP_VERSION("${project_page}" "${project_version}")
 
 
     if ("${want_quickstart}" MATCHES "Y")
@@ -403,4 +428,6 @@ configure_file("licenses.csv" "licenses.csv")
 configure_file("contributors.csv" "contributors.csv")
 configure_file("translators.csv" "translators.csv")
 
+set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 add_subdirectory(doc)
+add_subdirectory(presentation)

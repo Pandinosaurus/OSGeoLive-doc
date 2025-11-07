@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-19 11:35-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,10 @@ msgstr ""
 msgid "OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never use a piece of software or electronic equipment as your only means of navigation and keep an eye out the window."
 msgstr ""
 
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:27
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:30
 msgid "Setting up your charts"
 msgstr ""
@@ -33,7 +37,7 @@ msgid "Before running OpenCPN on the LiveDVD you should activate the sample data
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:35
-msgid "From the Start menu, select :menuselection:`Geospatial --> Navigation and Maps --> OpenCPN`."
+msgid "From the Start menu, select |menu_opencpn|."
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:36
@@ -101,7 +105,7 @@ msgid "If you saved the XyGrib file into your home directory, navigate to :file:
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
-msgid "There is no need to uncompress the file.  Click on the \">\" to the left of the filename and select from the list of available forecast times."
+msgid "There is no need to uncompress the file. Click on the \">\" to the left of the filename and select from the list of available forecast times."
 msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:88
@@ -112,15 +116,27 @@ msgstr ""
 msgid "Documentation is available from the Help menu or online at https://opencpn.org/OpenCPN/info/manuals.html"
 msgstr ""
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:92
-msgid "`Getting started tips <../../opencpn/tips.html>`_"
-msgstr ""
-
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:94
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:95
 msgid "Website: https://www.opencpn.org"
 msgstr ""
 
-#: ../../build/doc/quickstart/opencpn_quickstart.rst:96
+#: ../../build/doc/quickstart/opencpn_quickstart.rst:97
 msgid "Support: https://www.cruisersforum.com/forums/f134"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -19,7 +19,7 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 
 The project provides also a Graphical user Interface that allows for easing the daily operations and a RESTFull Web api for automatizing administration procedures.
 
-istSOS is released under the GPLv2 licence, and runs on all major platforms 
+istSOS is released under the GPLv2 licence, and runs on all major platforms
 (Windows, Linux, Mac OS X), even though it has been used in production in linux environment only.
 
 .. contents:: Contents
@@ -43,7 +43,7 @@ With istSOS you can organize your sensor data in different instances. Every inst
 
 The first steps into istSOS setup is to configure the default configuration options. These options will then be automatically used for your convenience by every new istSOS instance created.
 
-#. Click :menuselection:`Geospatial --> Webservices --> istSOS` to open the Web Admin interface. Alternatively, open a browser and go to `<http://localhost/istsos/admin>`_
+#. Click |menu_istsos| to open the Web Admin interface. Alternatively, open a browser and go to `<http://localhost/istsos/admin>`_
 
 #. Click the :guilabel:`Enter` button in the administration page.
 
@@ -109,35 +109,35 @@ Add a new procedure
 
 .. rubric:: *Example* (minimal configuration)
 
-+-----------------------------------------------------------------------------------+
-| Name: T_LUGANO                                                                    |
-+-----------------------------------------------------------------------------------+
-| Description: temperature weather station in Lugano                                |
-+-----------------------------------------------------------------------------------+
-| Keywords: weather, meteorological, IST                                            |
-+-----------------------------------------------------------------------------------+
-| System type: insitu-fixed-point                                                   |
-+-----------------------------------------------------------------------------------+
-| Sensor type: PTC thermistors of the "switching" type                              |
-+-----------------------------------------------------------------------------------+
-| FOI name: LUGANO                                                                  |
-+-----------------------------------------------------------------------------------+
-| EPSG: 4326                                                                        |
-+-----------------------------------------------------------------------------------+
-| Coordinates: x: 8.96127 y: 46.02723 z: 344.1                                      |
-+-----------------------------------------------------------------------------------+
++------------------------------------------------------------------------------+
+| Name: T_LUGANO                                                               |
++------------------------------------------------------------------------------+
+| Description: temperature weather station in Lugano                           |
++------------------------------------------------------------------------------+
+| Keywords: weather, meteorological, IST                                       |
++------------------------------------------------------------------------------+
+| System type: insitu-fixed-point                                              |
++------------------------------------------------------------------------------+
+| Sensor type: PTC thermistors of the "switching" type                         |
++------------------------------------------------------------------------------+
+| FOI name: LUGANO                                                             |
++------------------------------------------------------------------------------+
+| EPSG: 4326                                                                   |
++------------------------------------------------------------------------------+
+| Coordinates: x: 8.96127 y: 46.02723 z: 344.1                                 |
++------------------------------------------------------------------------------+
 
 *Outputs (confirm the outputs pressing the "add" button):*
 
-+----------------------------------------------------------------------------------------------+
-|   Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature                |
-+----------------------------------------------------------------------------------------------+
-|   Unit of measure: °C                                                                        |
-+----------------------------------------------------------------------------------------------+
-|   Description (optional): conversion from resistance to temperature                          |
-+----------------------------------------------------------------------------------------------+
-|   quality index check (optional): Between / from -40 to +60                                  |
-+----------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
+| Observed property: `urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature` |
++-------------------------------------------------------------------------------+
+| Unit of measure: °C                                                           |
++-------------------------------------------------------------------------------+
+| Description (optional): conversion from resistance to tempera                 |
++-------------------------------------------------------------------------------+
+| quality index check (optional): Between / from -40 to +60                     |
++-------------------------------------------------------------------------------+
 
 .. note::
     Register the new sensor (procedure) pressing the "submit" button.
@@ -248,5 +248,5 @@ What next?
 
 To learn more about istSOS, a starting point is the `istSOS Documentation`_ and the `istSOS Tutorial`_.
 
-.. _`istSOS Documentation`: http://istsos.org/en/trunk/doc/index.html
-.. _`istSOS Tutorial`: http://istsos.org/tutorial/
+.. _`istSOS Documentation`: https://istsos.org/en/trunk/doc/index.html
+.. _`istSOS Tutorial`: https://istsos.org/tutorial/

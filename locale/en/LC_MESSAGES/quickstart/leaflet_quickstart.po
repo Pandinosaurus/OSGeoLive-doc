@@ -1,68 +1,74 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 13.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 11:23-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:15
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:18
 msgid "Leaflet Quickstart"
 msgstr ""
 
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:17
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:20
 msgid ""
 "Leaflet is a JavaScript library for browser-based, mobile-friendly, "
-"interactive maps.  It is lightweight, yet has all the features most "
+"interactive maps. It is lightweight, yet has all the features most "
 "developers ever need for online maps. Leaflet is designed with "
 "simplicity, performance and usability in mind."
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:22
+msgid "Contents"
+msgstr ""
+
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:25
 msgid "Running"
 msgstr ""
 
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:24
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:27
 msgid ""
-"Prior to running this quick start you should start TileStache. On "
-"OSGeoLive this can be found under **Geospatial\\\\Spatial Tools\\\\Start "
-"Mapnik & TileStache**. This will provide background tiles that will be "
-"used in this demo."
+"Prior to running this quick start you should start MapProxy. On OSGeoLive"
+" this can be found under **Geospatial\\\\Web "
+"Services\\\\MapProxy\\\\Start MapProxy**. This will provide background "
+"tiles that will be used in this demo."
 msgstr ""
 
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:27
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:30
 msgid "View the example_"
 msgstr ""
 
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:29
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:32
 msgid ""
 "If you are reading this quickstart outside OSGeoLive you may prefer "
 "reading the original demo on: https://leafletjs.com/examples/quick-"
 "start/, since this demo uses tilestache on OSGeoLive."
 msgstr ""
 
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:32
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:35
 msgid "Preparing your page"
 msgstr ""
 
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:33
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:36
 msgid ""
 "Before writing any code for the map, you need to do the following "
 "preparation steps on your page:"
 msgstr ""
 
-#: ../../build/doc/quickstart/leaflet_quickstart.rst:35
+#: ../../build/doc/quickstart/leaflet_quickstart.rst:38
 msgid "Include Leaflet CSS files in the head section of your document"
 msgstr ""
 
@@ -90,7 +96,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:66
 msgid ""
-"Let's create a map of eastern Africa with an indication of the 2018 "
+"Let's create a map of Firenze, Italy with an indication of the 2022 "
 "FOSS4G conference. First we'll initialize the map and set its view to our"
 " chosen geographical coordinates and a zoom level:"
 msgstr ""
@@ -112,9 +118,9 @@ msgstr ""
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:76
 msgid ""
 "Next we'll add a tile layer to our map. In this case we will be using the"
-" tile images provided by TileStache on the live dvd. Note that using "
-"nicer background maps such as openstreetmap will result in a much better "
-"user experience."
+" tile images provided by MapProxy on the live dvd. Note that using nicer "
+"background maps such as openstreetmap will result in a much better user "
+"experience."
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:79
@@ -214,7 +220,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:173
-msgid "What Next?"
+msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:175
@@ -222,5 +228,21 @@ msgid ""
 "Now you've learned Leaflet basics and can start building map apps "
 "straight away! Don't forget to take a look at the detailed documentation_"
 " or other examples_."
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

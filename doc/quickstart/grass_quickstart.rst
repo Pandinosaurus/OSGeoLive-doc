@@ -1,16 +1,14 @@
 :Author: Hamish Bowman
-:Reviewer: Markus Neteler
+:Reviewer: Markus Neteler, OSGeo & mundialis
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-:Copyright: 2011-2019 by The OSGeo Foundation
+:Copyright: 2011-2022 by The OSGeo Foundation
 
 @LOGO_grass@
 @OSGEO_KIND_grass@
 @VMDK_grass@
-
-
 
 
 ********************************************************************************
@@ -30,8 +28,8 @@ Start GRASS
 .. author's note: Update in osgeolive8.5: light NC dataset is included, tutorial
  rewritten
 
-#. Click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` menu.
-#. From the "Welcome to GRASS GIS " window, select the nc_basic_spm_grass7 dataset for the location, and "user1" for the mapset
+#. Click on |menu_grass82|.
+#. From the "Welcome to GRASS GIS" window, select the "nc_basic_spm_grass7" dataset for the location, and "user1" for the mapset
 #. Click on :guilabel:`Start GRASS session`.
 
 .. image:: /images/projects/grass/grass-startup.png
@@ -39,7 +37,8 @@ Start GRASS
   :alt: screenshot
   :align: right
 
-This will launch GRASS into the `graphical user interface (written in wxPython) <../../grass/wxGUI.html>`_.
+This will launch GRASS into the `graphical user interface (written in wxPython)
+<http://localhost/grass/wxGUI.html>`_.
 
 .. tip::  If you are on a netbook with a very small display (800x600 resolution)
  the startup screen might get a little scrunched and the [*Start GRASS*]
@@ -60,11 +59,11 @@ Display a map
   :scale: 50 %
   :alt: screenshot
   :align: left
-  
 
-#. Once inside, select for display the raster map layer "`elevation`" from the PERMANENT mapset. 
-#. Go into the `GIS Layer Manager` window. 
-#. Click on the checkerboard toolbar button with a "+" on it. 
+
+#. Once inside, select for display the raster map layer "`elevation`" from the PERMANENT mapset.
+#. Go into the `GIS Layer Manager` window.
+#. Click on the checkerboard toolbar button with a "+" on it.
 #. Select the map name you want from the "*map to be displayed*" pull-down list, and click :guilabel:`Ok`.
 #. Click on the toolbar button with a "+" and a bent poly-line which looks a bit like a "V".
 #. Select the "`roadsmajor`" vector layer from the PERMANENT mapset, and click :guilabel:`Ok`.
@@ -86,10 +85,10 @@ zooming buttons on the `Map Display` toolbar is an icon with a line graph
 and checkerboard on it. Click on that and select **Profile surface map**.
 The `@PERMANENT` mapset is automatically searched.
 If the map isn't automatically listed, again pick the `elevation` map
-as the raster layer and press :guilabel:`Ok`. In the `GRASS Profile Analysis 
+as the raster layer and press :guilabel:`Ok`. In the `GRASS Profile Analysis
 Tool` window select the second button from the left, it allows
 you to set out the profile line, click it then mark out a few points on
-the `Map Display` canvas. When done go back to the Profile window. 
+the `Map Display` canvas. When done go back to the Profile window.
 Click on the I/O button of the far right to close the profile window.
 
 Adjust raster map colors
@@ -149,7 +148,7 @@ watershed basin" *threshold* to
 basins raster map" *basins* option and "elev.streams" for the "Name for
 output stream segments raster map" *streams* option just below it. Then click [*Run*].
 
-Back in the `GIS Layer Manager` window check that those two new raster maps are 
+Back in the `GIS Layer Manager` window check that those two new raster maps are
 in the layer list and make sure that the basins map is ticked for display in
 the box to the left of the layer name. You might untick the streams map for now.
 Next, right click on the "`elev.basins`" raster map layer name and
@@ -194,7 +193,7 @@ have to do a full re-render to see the change so click on the re-render button
 the first in the `Map Display` window. The fonts will now be much prettier.
 
 Work with vector modules
-======================== 
+========================
 The above tasks have only covered a few raster modules. Don't let this
 give you the idea that GRASS GIS is just for raster maps -- the vector engine
 and modules are every bit as full-featured as the raster ones. GRASS GIS
@@ -261,8 +260,8 @@ map"), it is second from the left on the bottom row. This will open a view
 of the database table attached to the selected vector map. For now we'll just
 do a *Simple* database query to find watershed basins without a lot of variation
 in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stddev``
-from the pull down list for the standard deviation statistic, then select ``<`` 
-from the relation list and in the text box to its right enter ``< 50`` and 
+from the pull down list for the standard deviation statistic, then select ``<``
+from the relation list and in the text box to its right enter ``< 50`` and
 click [*Apply*]. You'll notice the
 number of loaded records in the information bar along the bottom of the window
 has shrunk, and that all of the rows with large values for standard deviation
@@ -303,7 +302,7 @@ While not covered here, you may like to experiment with the
 Cartographic Composer and object-oriented Graphical Modelling Tool (offers
 export to Python). You'll find icons to launch them on the lower row of
 icons in the `Layer Manager` window. Further details can be found in
-the `wxGUI <https://grass.osgeo.org/grass78/manuals/wxGUI.html>`_ help pages.
+the `wxGUI <https://grass.osgeo.org/grass-stable/manuals/wxGUI.html>`_ help pages.
 
 API
 ---
@@ -319,7 +318,7 @@ See the manual pages for an extensive description of the programming options.
 
 Command line
 ------------
-In the GRASS terminal session, try a GRASS module by typing "``v.clean --help``" which will give you a list of module options. 
+In the GRASS terminal session, try a GRASS module by typing "``v.clean --help``" which will give you a list of module options.
 The GRASS command line is where the true power of
 the GIS comes into its own. GRASS is designed to allow all commands
 to be tied together in scripts for large bulk processing jobs. Popular
@@ -337,6 +336,6 @@ What next?
 * Visit the GRASS GIS website at `https://grass.osgeo.org <https://grass.osgeo.org>`_
 * Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ <https://grasswiki.osgeo.org/wiki/Main_Page>`_
 * More tutorials and overviews can be found `here <https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_.
-* A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass78/manuals/full_index.html>`_
+* A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass-stable/manuals/full_index.html>`_
 * If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed
-  add-ons at `https://grass.osgeo.org/grass78/manuals/addons/ <https://grass.osgeo.org/grass78/manuals/addons/>`_
+  add-ons at `https://grass.osgeo.org/grass-stable/manuals/addons/ <https://grass.osgeo.org/grass-stable/manuals/addons/>`_

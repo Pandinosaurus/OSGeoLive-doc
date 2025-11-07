@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,14 +33,14 @@ msgstr "Többdimenziós nagy-adat analitikai motor"
 msgid ""
 "Rasdaman is an Array Database System which provides flexible, fast, scalable"
 " geo services for multi-dimensional spatio-temporal sensor, image, "
-"simulation, and statistics data of unlimited volume.  Ad-hoc access, "
+"simulation, and statistics data of unlimited volume. Ad-hoc access, "
 "extraction, aggregation, as well as remix and analytics is enabled through a"
 " NewSQL raster query language with highly effective server-side "
-"optimization.  Cloud/cluster parallelization is accomplished in a secure, "
+"optimization. Cloud/cluster parallelization is accomplished in a secure, "
 "administrator-controlled way."
 msgstr ""
 "A Rasdaman egy Array adatbázis rendszer, mely rugalmas, gyors, méretezhető "
-"térinformatikai szolgáltatásokat nyújt  korlátlan mennyiségű többdimenziós "
+"térinformatikai szolgáltatásokat nyújt korlátlan mennyiségű többdimenziós "
 "tér-idő szenzor, kép, szimuláció és statisztikai adatokhoz Az ad-hoc "
 "hozzáférés, a kivonat, az összesítés, valamint a remix és az analitika egy "
 "NewSQL raszteres lekérdezési nyelv segítségével érhető el, rendkívül "
@@ -62,15 +62,19 @@ msgstr ""
 #: ../../build/doc/overview/rasdaman_overview.rst:31
 msgid ""
 "Rasdaman has received a series of international innovation awards, among "
-"them the prestigeous European IT Prize and Geospatial Innovation Award.  "
+"them the prestigeous European IT Prize and Geospatial Innovation Award. "
 "Technology is mature and stable, being in operational for more than ten "
-"years.  Among the operators of rasdaman services are mapping agencies and "
+"years. Among the operators of rasdaman services are mapping agencies and "
 "climate data centers."
 msgstr ""
 "Rasdaman számos nemzetközi innovációs díjat kapott, köztük a tekintélyes "
 "European IT Prize and GeoSpatial Innovation díjat. A technológia érett és "
 "stabil, több mint tíz éve működik. A rasdami szolgáltatások üzemeltetői közé"
 " tartoznak a térképészeti ügynökségek és az éghajlati adatközpontok."
+
+#: ../../build/doc/overview/rasdaman_overview.rstNone
+msgid "rasdaman screenshot"
+msgstr "rasdaman képernyőképek"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:40
 msgid "Core Features"
@@ -149,8 +153,13 @@ msgid "**API Interfaces:** rasql, C++, Java"
 msgstr "**API Interfészek:** rasql, C++, Java"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:69
-msgid "**Support:**  https://rasdaman.com"
-msgstr "**Támogatás:**  https://rasdaman.com"
+msgid "**Support:** https://rasdaman.com"
+msgstr "**Támogatás:** https://rasdaman.com"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:71
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:74
 msgid "Quickstart"
@@ -159,3 +168,19 @@ msgstr "Gyorstalpaló"
 #: ../../build/doc/overview/rasdaman_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/rasdaman_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "OSGeo Projekt"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo közösség"

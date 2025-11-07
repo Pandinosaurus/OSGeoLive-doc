@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2021
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-01 08:19-0600\n"
-"PO-Revision-Date: 2021-01-21 18:51+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"commandline_quickstart/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:8
 msgid "Command Line basics"
@@ -53,8 +54,12 @@ msgid ""
 "menu in the `System Tools` section. This gives you a Unix shell command "
 "prompt."
 msgstr ""
-"`アプリケーション` メニューの `システムツール`  から、ターミナルエミュレータ (現在は `QTerminal` "
+"`アプリケーション` メニューの `システムツール` から、ターミナルエミュレータ (現在は `QTerminal` "
 ")を起動します。これにより、Unixシェルのコマンドプロンプトが表示されます。"
+
+#: ../../build/doc/quickstart/commandline_quickstart.rst:22
+msgid "Contents"
+msgstr "目次"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:25
 msgid "Where am I?"
@@ -100,7 +105,7 @@ msgstr "cdコマンドを使用すると、ファイルシステム内を簡単�
 msgid ""
 "cd / navigated to the root directory cd /home/user goes to your home "
 "directory same as cd ~"
-msgstr "cd / では、ルートディレクトリに移動します。 cd  /home/user  は、cd ~ と同じで、ホームディレクトリに移動します。"
+msgstr "cd / では、ルートディレクトリに移動します。 cd /home/user は、cd ~ と同じで、ホームディレクトリに移動します。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:72
 msgid ""
@@ -334,7 +339,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:248
 msgid "You can show the owner and group via `ls -l`"
-msgstr "所有者と所有グループを  `ls -l` で見ることができます。"
+msgstr "所有者と所有グループを `ls -l` で見ることができます。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:256
 msgid "the initial character can be `-` for a file or `d` for directory"
@@ -496,7 +501,7 @@ msgstr "locate - 名前でファイルを検索"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:334
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:336
 msgid ""
@@ -512,3 +517,19 @@ msgstr "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
 #: ../../build/doc/quickstart/commandline_quickstart.rst:339
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
 msgstr "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "ロゴなし"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "OSGeo プロジェクト"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo コミュニティ"

@@ -4,23 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"josm_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:20
 msgid "JOSM Quickstart"
@@ -31,8 +32,8 @@ msgid ""
 "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
 " (OSM) data, written in Java."
 msgstr ""
-"JOSM egy funkció gazdag, bővíthető, offline asztali szerkesztő OpenStreetMap"
-" (OSM) adatokhoz,  melyet Javaban írtak"
+"JOSM egy funkció gazdag, bővíthető, offline asztali szerkesztő OpenStreetMap "
+"(OSM) adatokhoz, melyet Javaban írtak."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:24
 msgid ""
@@ -66,6 +67,10 @@ msgstr ""
 "Az asztalról válassza :menuselection:`Navigation and Maps --> JOSM`. Amikor "
 "a JOSM elindul valahogy így néz ki:"
 
+#: ../../build/doc/quickstart/josm_quickstart.rstNone
+msgid "JOSM splash page"
+msgstr "JOSM nyitó lap"
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
 msgstr "Egy (képzeletbeli) minta térkép betöltése"
@@ -97,13 +102,17 @@ msgstr ""
 "Most nyissuk meg a minta térkép fájlt a JOSM-ban. Kattintson az \"Open\" "
 "gombra a bal felső sarokban."
 
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Open file"
+msgstr "Fájl nyitás"
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:54
 msgid ""
 "Find the file **sample.osm**. It is probably in your Downloads folder, "
 "unless you saved it somewhere else."
 msgstr ""
 "Keresse meg a **sample.osm** fájlt. Valószínűleg a letöltések mappájában "
-"van, hacsak nem mentette valahová máshová. "
+"van, hacsak nem mentette valahová máshová."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:56
 msgid ""
@@ -112,6 +121,10 @@ msgid ""
 msgstr ""
 "Kattintson az \"Open\"-re. Egy minta térképet kell látnia, mely ehhez "
 "hasonlóan néz ki:"
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Sample file"
+msgstr "Minta fájl"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:62
 msgid ""
@@ -144,9 +157,13 @@ msgid ""
 msgstr ""
 "Több lehetőség van a térkép nagyítására, kicsinyítésére. Ha vagy egy egere, "
 "használhatja az egérgörgőt a nagyításra és kicsinyítésre. Ha egy laptopot "
-"használ és nincs egere, akkor a térkép ablak bal-felső  részén található "
-"léptékvonalzót használhatja. Húzza a vonalzót jobbra és balra a bal egérgomb"
-" nyomvatartása mellett."
+"használ és nincs egere, akkor a térkép ablak bal-felső részén található "
+"léptékvonalzót használhatja. Húzza a vonalzót jobbra és balra a bal egérgomb "
+"nyomvatartása mellett."
+
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Scale bar"
+msgstr "Léptékvonalzó"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:82
 msgid ""
@@ -181,7 +198,7 @@ msgid ""
 msgstr ""
 "A pontok egy szimbólummal reprezentált pozíciók. Ezen a minta térképen két "
 "pont van egy cipőbolt és egy áruház. A cipőboltot a cipő szimbólummal "
-"jelöltük, az áruházat egy bevásárló  kocsival."
+"jelöltük, az áruházat egy bevásárló kocsival."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:96
 msgid ""
@@ -192,7 +209,7 @@ msgid ""
 msgstr ""
 "Sok vonal is található a térképen, melyek az utakat ábrázolják. Ha "
 "közelebbről megtekinti láthatja, hogy a vonalakon pontok is vannak. Ezekhez "
-"a pontokhoz nem tartozik szimbólum vagy más  információ, a vonal helyét "
+"a pontokhoz nem tartozik szimbólum vagy más információ, a vonal helyét "
 "határozzák meg csupán."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:101
@@ -262,7 +279,7 @@ msgid ""
 "around the forest, not one of the points on the line."
 msgstr ""
 "Válassza ki az erdőt a térkép bal oldalán. Győződjön meg róla, hogy az erdő "
-"körüli vonalra kattint és nem az egyik pontra a vonalon. "
+"körüli vonalra kattint és nem az egyik pontra a vonalon."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:130
 msgid ""
@@ -310,6 +327,11 @@ msgstr ""
 msgid "Until now, you have been using the Select tool, which looks like this:"
 msgstr "Idáig a kiválasztás eszközöket használtuk, melyek így néznek ki:"
 
+#: ../../build/doc/quickstart/josm_quickstart.rstNone
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Select tool"
+msgstr "Kiválasztás eszköz"
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:153
 msgid "Before you draw, you need to make sure that nothing is selected."
 msgstr ""
@@ -327,6 +349,10 @@ msgstr ""
 msgid "Click on the second button, the Draw tool."
 msgstr "Kattintson a második ikonra, a Draw eszközre."
 
+#: ../../build/doc/quickstart/josm_quickstart.rst:0
+msgid "Draw tool"
+msgstr "Rajz eszköz"
+
 #: ../../build/doc/quickstart/josm_quickstart.rst:163
 msgid ""
 "Find an empty area on the map, and double-click with your mouse. This will "
@@ -342,7 +368,7 @@ msgid ""
 "click your mouse."
 msgstr ""
 "Egy vonal rajzolásához kattintson egyszer. Mozgassa az egerét és kattintson "
-"ismét. Folytassa amíg elégedett lesz a vonalával.  vonal lezárásához "
+"ismét. Folytassa amíg elégedett lesz a vonalával. vonal lezárásához "
 "kattintson duplán az egerével."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:169
@@ -401,7 +427,7 @@ msgid ""
 "everything went well, your point, line, or shape should change colors or "
 "show a symbol. This is because you have defined what it is."
 msgstr ""
-"Amikor befejezte a az adatok bevitelét kattintson az  “Apply Preset”-re. Ha "
+"Amikor befejezte a az adatok bevitelét kattintson az “Apply Preset”-re. Ha "
 "minden jól ment a pont, a vonal vagy alakzat színe megváltozik vagy egy "
 "szimbólum jelenik meg. Ez azért történik, mert megadta, hogy mi az."
 
@@ -499,3 +525,19 @@ msgstr ""
 #: ../../build/doc/quickstart/josm_quickstart.rst:225
 msgid "Website: https://josm.openstreetmap.de/"
 msgstr "Honlap: https://josm.openstreetmap.de/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "OSGeo Projekt"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo közösség"

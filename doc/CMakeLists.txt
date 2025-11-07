@@ -26,6 +26,7 @@ set(OSGeoLiveDoc_SUBDIRS
     )
 
 
+  file(READ ${CMAKE_SOURCE_DIR}/menuselections.conf OSGeoLiveDoc_menuselections)
 
 #---------------------------------------------
 # Adding the documentation subdirectories & files
@@ -73,7 +74,6 @@ configure_file("conf.py" "conf.py" @ONLY)
 add_subdirectory(_themes)
 
 set(SPHINX_DOCUMENTATION_DIR "${CMAKE_CURRENT_BINARY_DIR}")
-set(SPHINX_BUILD_DIR "${CMAKE_CURRENT_BINARY_DIR}/_build")
 
 
 # Internal variables.
@@ -98,7 +98,7 @@ if (LOCALE)
         "${CMAKE_CURRENT_BINARY_DIR}"
         "${CMAKE_SOURCE_DIR}/locale/pot"
 
-        COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale -l en
+        COMMAND sphinx-intl update -d ${CMAKE_SOURCE_DIR}/locale -l en > locale_changes.txt
 
         #COMMAND sphinx-intl update-txconfig-resources --locale-dir ${CMAKE_SOURCE_DIR}/locale --pot-dir ${CMAKE_SOURCE_DIR}/locale/pot --transifex-project-name osgeolive
 
@@ -127,6 +127,8 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
 
             -b ${target}
             -c "${CMAKE_CURRENT_BINARY_DIR}"
+            -j auto
+            -v
             -D language='${lang}'
 
             # the location of the documentation to be build
@@ -143,5 +145,3 @@ foreach (target ${OSGeoLiveDoc_DOC_TARGETS})
     endforeach()
     add_dependencies(doc "${target}")
 endforeach()
-
-add_subdirectory(presentation)

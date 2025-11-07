@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,6 +48,10 @@ msgstr ""
 msgid "being available for Windows and Linux (there are also non-oficial Mac OS X versions)."
 msgstr ""
 
+#: ../../build/doc/overview/gvsig_overview.rst:None
+msgid "gvsig screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/gvsig_overview.rst:40
 msgid "Core Features"
 msgstr ""
@@ -61,7 +65,7 @@ msgid "Interoperable: able to work with most known data formats:"
 msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:46
-msgid "raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
+msgid "raster : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:47
@@ -209,7 +213,7 @@ msgid "Export/import of Web Map Context (WMC)"
 msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:97
-msgid "Search on catalogues with  CSW (ISO/19115 and ebRIM)"
+msgid "Search on catalogues with CSW (ISO/19115 and ebRIM)"
 msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:98
@@ -241,7 +245,7 @@ msgid "**Support:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.
 msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:116
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:119
@@ -252,3 +256,19 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

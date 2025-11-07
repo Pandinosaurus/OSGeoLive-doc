@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:18
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:24
@@ -26,6 +26,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:26
 msgid "gvSIG is a Geographic Information System (GIS), that is, a desktop application designed for capturing, storing, handling, analyzing and deploying any kind of referenced geographic information in order to solve complex management and planning problems. gvSIG is known for having a user-friendly interface, being able to access the most common formats, both vector and raster ones. It features a wide range of tools for working with geographic-like information (query tools, layout creation, geoprocessing, networks, etc.), which turns gvSIG into the ideal tool for users working in the land realm."
+msgstr ""
+
+#: ../../build/doc/quickstart/gvsig_quickstart.rst:36
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:38
@@ -41,7 +45,7 @@ msgid "Start gvSIG and create a view"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:53
-msgid "Select gvSIG from the application menu, :menuselection:`Geospatial --> Desktop GIS --> gvSIG`. The application usually takes about a minute to startup."
+msgid "Select gvSIG from the application menu, |menu_gvsig|. The application usually takes about a minute to startup."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:55
@@ -608,3 +612,19 @@ msgstr ""
 msgid "`gvSIG Blog <https://blog.gvsig.org/category/languages/english/>`_"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

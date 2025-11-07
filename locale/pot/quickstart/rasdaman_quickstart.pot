@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:15
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:23
 msgid "Rasdaman Quickstart"
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:25
 msgid "Rasdaman is a Big Data Engine for flexible ad-hoc analytics on multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited size. The Web Coverage Processing Service (WCPS) query language is an Open Geospatial Consortium (OGC) standard wich allows filtering and processing of multi-dimensional raster coverages, such as sensor, simulation, image, and statistics data using web services. The WCPS queries are translated to rasdaman query language, rasql, and are executed on rasdaman. This quick start shows how to access and manipulate an example 2D coverage using WCPS language."
+msgstr ""
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:31
+msgid "Contents"
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:34
@@ -117,7 +125,7 @@ msgid "The `rasdaman tutorial <https://tutorial.rasdaman.org/>`_ provides a cond
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:130
-msgid "Learn more about the OGC  |WCPS| Language standard (which was heavily inspired by rasdaman); a good starting point is the `documentation and tutorials page <https://standards.rasdaman.com/>`_  and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
+msgid "Learn more about the OGC |WCPS| Language standard (which was heavily inspired by rasdaman); a good starting point is the `documentation and tutorials page <https://standards.rasdaman.com/>`_ and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:133
@@ -132,3 +140,19 @@ msgstr ""
 msgid "Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to explore interactive 1-D to 4-D rasdaman demos. The small ones are part of OSGeoLive, those utilizing larger sets (beyond this drive's capacity) forward to the `OGC standards showcase site <https://standards.rasdaman.com>`_ ."
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

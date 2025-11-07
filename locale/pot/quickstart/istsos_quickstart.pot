@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-28 22:14-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,10 @@ msgstr ""
 msgid "istSOS is released under the GPLv2 licence, and runs on all major platforms (Windows, Linux, Mac OS X), even though it has been used in production in linux environment only."
 msgstr ""
 
+#: ../../build/doc/quickstart/istsos_quickstart.rst:32
+msgid "Contents"
+msgstr ""
+
 #: ../../build/doc/quickstart/istsos_quickstart.rst:35
 msgid "Create postgis database"
 msgstr ""
@@ -53,7 +57,7 @@ msgid "The first steps into istSOS setup is to configure the default configurati
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:52
-msgid "Click :menuselection:`Geospatial --> Webservices --> istSOS` to open the Web Admin interface. Alternatively, open a browser and go to `<http://localhost/istsos/admin>`_"
+msgid "Click |menu_istsos| to open the Web Admin interface. Alternatively, open a browser and go to `<http://localhost/istsos/admin>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:54
@@ -189,7 +193,7 @@ msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:139
-msgid "Observed property: urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature"
+msgid "Observed property: `urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature`"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:141
@@ -197,7 +201,7 @@ msgid "Unit of measure: °C"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:143
-msgid "Description (optional): conversion from resistance to temperature"
+msgid "Description (optional): conversion from resistance to tempera"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:145
@@ -288,3 +292,19 @@ msgstr ""
 msgid "To learn more about istSOS, a starting point is the `istSOS Documentation`_ and the `istSOS Tutorial`_."
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

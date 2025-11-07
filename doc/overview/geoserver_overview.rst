@@ -56,9 +56,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-Support of numerous Open Geospatial Consortium  (OGC) standards:
-
-  
+Support of numerous Open Geospatial Consortium (OGC) standards:
 
 * |WMS| (client/server)
 * |WMTS|
@@ -82,7 +80,7 @@ Details
 
 **API Interfaces:** WMS, WFS, WCS, REST
 
-**Support:** http://geoserver.org/support/
+**Support:** https://geoserver.org/support/
 
 @VMDK_geoserver@
 @QUICKSTART_geoserver@

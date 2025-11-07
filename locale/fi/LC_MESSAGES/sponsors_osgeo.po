@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
@@ -22,6 +22,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/sponsors_osgeo.rstNone
+msgid "OSGeo"
+msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rst:7
 msgid "The OSGeo Foundation"
@@ -39,7 +43,7 @@ msgid ""
 "devoted to an open philosophy and participatory community driven "
 "development."
 msgstr ""
-"`Open Source Geospatial Foundation (OSGeo) < <https://www.osgeo.org>` __  "
+"`Open Source Geospatial Foundation (OSGeo) < <https://www.osgeo.org>` __ "
 "tehtävä on voittoa tavoittelematomasti edistää maailmanlaajuista "
 "hyväksymistä avoimeen paikkatieto teknologiaan olemalla osallistava "
 "ohjelmistojärjestö joka on keskittynyt avoimuuden filosofiaan ja "
@@ -64,7 +68,7 @@ msgid ""
 "geospatial education and opportunities accessible to all."
 msgstr ""
 "`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: Yli 100 "
-"opetusyksikköä ympäri maailmaa jotka toimivat kumppaneiden kanssa  "
+"opetusyksikköä ympäri maailmaa jotka toimivat kumppaneiden kanssa "
 "saattaakseen paikkatietokoulutuksen ja mahdollisuudet kaikkien "
 "saavutettaviksi."
 
@@ -88,3 +92,19 @@ msgstr ""
 "teemana *Vapaa ja Avoimen Lähdekoodin Ohjelmisto Paikkatiedolle*, kuten myös"
 " lukuisat alueelliset ja paikalliset tapahtumat "
 "<https://www.osgeo.org/events>`_."
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

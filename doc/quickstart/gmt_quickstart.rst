@@ -111,41 +111,22 @@ The output ps document should look like:
 
 
 Things to try
-=============
+================================================================================
 
-Look at some of the examples found in: `/usr/share/doc/gmt/examples <../../gmt/examples/>`_
+.. TODO do these needs to be installed to go thru the tutorial?
+   https://trac.osgeo.org/osgeolive/ticket/2344
 
-.. packages:
-  gmt-doc (and -pdf)
-  gmt-coast-low
-  gmt-examples
-  gmt-tutorial (and -pdf)
-  
-Go through the GMT tutorial and follow the several examples available in the src code.
-There are 30 example jobs built in, to test:
+* Install the following packages:
 
-Open a terminal, then
+  *  gmt-dcw
+  *  gmt-gshhg
 
-::
-
-  cp -R /usr/share/doc/gmt/examples gmt-examples
-  cd gmt-examples/ex20
-  ./example_20.sh
-
-To view the results in Ghostview (http://www.gnu.org/software/gv/) , use command `gv`. Type `q` to quit Ghostview. 
-
-
-::
-
-  gv example_20.ps
-
+* `GMT tutorial <https://docs.generic-mapping-tools.org/latest/tutorial>`
 
 What next?
 ==========
 
-* Have a read of the local documentation stored in: `/usr/share/doc/gmt/html/ <../../gmt/html/index.html>`_
-
-* Website: https://gmt.soest.hawaii.edu
-
-* Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1
+* Documentation: https://docs.generic-mapping-tools.org/latest/
+* Website: @WEB_gmt@
+* Support: https://forum.generic-mapping-tools.org/
 

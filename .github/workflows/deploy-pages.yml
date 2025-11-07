@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# GitHub Actions scripts 
+# GitHub Actions scripts
 # Copyright(c) pgRouting Contributors
 #
 # Main configuration
@@ -13,9 +13,11 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
+    if: ${{ github.repository_owner == 'OSGeo' }}
+
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
 
       - name: Install apt packages
         run: |
@@ -23,24 +25,28 @@ jobs:
           sudo cpanm Text::SimpleTable::AutoWidth
 
       - name: Setup Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.6'
-          architecture: 'x64'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install -r ./requirements.txt
+          python -m pip install --upgrade pip
+          python -m pip install -r ./requirements.txt
+
+      - name: Initialize mandatory git config
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Build pages
         run: |
-          mkdir build
-          cd build
-          bash ../ci/build-pages.sh
+          mkdir -p build
+          bash ci/build-pages.sh
 
       - name: Deploy pages
-        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/doc/_build/html/
+          publish_dir: build/_build/html

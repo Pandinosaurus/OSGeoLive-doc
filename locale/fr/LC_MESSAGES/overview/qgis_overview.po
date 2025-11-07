@@ -6,22 +6,24 @@
 # Translators:
 # Harrissou Sant-anna, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2025-06-30 21:38+0000\n"
+"Last-Translator: Edouard Choiniere <echoix@users.noreply.weblate.osgeo.org>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_overview/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -50,13 +52,17 @@ msgstr ""
 "sous Linux, Unix, Mac OSX et Windows et prend en charge de nombreux formats "
 "et fonctionnalités vecteur, raster et bases de données."
 
+#: ../../build/doc/overview/qgis_overview.rstNone
+msgid "qgis screenshot"
+msgstr ""
+
 #: ../../build/doc/overview/qgis_overview.rst:36
 msgid "Core Features"
 msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/qgis_overview.rst:38
 msgid "Friendly graphical user interface:"
-msgstr "Interface utilisateur graphique conviviale:"
+msgstr "Interface utilisateur graphique conviviale :"
 
 #: ../../build/doc/overview/qgis_overview.rst:40
 msgid "identify/select features"
@@ -99,7 +105,7 @@ msgid ""
 "database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
 "SpatiaLite"
 msgstr ""
-"tables de base de données: PostgreSQL/PostGIS, Oracle Spatial, MS SQL "
+"tables de base de données : PostgreSQL/PostGIS, Oracle Spatial, MS SQL "
 "Spatial, SpatiaLite"
 
 #: ../../build/doc/overview/qgis_overview.rst:52
@@ -107,7 +113,7 @@ msgid ""
 "most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
 "OpenStreetMap vectors"
 msgstr ""
-"la plupart des formats vecteur: incluant les fichiers shapefile ESRI, "
+"la plupart des formats vecteur : incluant les fichiers shapefile ESRI, "
 "MapInfo, SDTS et GML, vecteurs OpenStreetMap"
 
 #: ../../build/doc/overview/qgis_overview.rst:53
@@ -134,7 +140,7 @@ msgstr "Support du rendu 2.5D"
 
 #: ../../build/doc/overview/qgis_overview.rst:58
 msgid "Create, edit and export spatial data using:"
-msgstr "Créé, édite et exporte des données spatiales en utilisant:"
+msgstr "Créé, modifie et exporte des données spatiales en utilisant :"
 
 #: ../../build/doc/overview/qgis_overview.rst:60
 msgid "digitizing tools for GRASS and shapefile formats"
@@ -150,8 +156,8 @@ msgid ""
 " or down/upload directly to a GPS unit"
 msgstr ""
 "Outils GPS pour importer et exporter le format GPX, convertir d'autres "
-"formats GPS au format GPX, ou télécharger/envoyer directement depuis/vers un"
-" appareil GPS."
+"formats GPS au format GPX, ou télécharger/envoyer directement depuis/vers un "
+"appareil GPS"
 
 #: ../../build/doc/overview/qgis_overview.rst:64
 msgid ""
@@ -159,7 +165,7 @@ msgid ""
 "GRASS"
 msgstr ""
 "Effectue des analyses spatiales utilisant le support intégré de SAGA, OTB, "
-"MMGIS et GRASS."
+"MMGIS et GRASS"
 
 #: ../../build/doc/overview/qgis_overview.rst:66
 msgid "map algebra"
@@ -214,12 +220,12 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
 msgstr "**Site Internet:** https://www.qgis.org/fr/site/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licence :** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/qgis_overview.rst:89
 msgid "**Software Version:** |version-qgis|"
@@ -237,10 +243,10 @@ msgstr ""
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 msgstr ""
 "**Support commercial:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"
@@ -251,3 +257,19 @@ msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/qgis_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "Pas de logo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Projet OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Communauté OSGeo"

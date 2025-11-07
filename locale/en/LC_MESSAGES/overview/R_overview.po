@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-02 08:38-0600\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/R_overview.rst:14
 msgid "R"
@@ -57,7 +57,7 @@ msgid ""
 "interface (GUI). Fortunately R is well documented on the web site which "
 "eases the learning process. Scripts are often used to automate processing"
 " steps but there are GUIs, the leading one being RStudio "
-"(https://www.rstudio.com)."
+"(https://posit.co/)."
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:44
@@ -67,6 +67,9 @@ msgid ""
 "as between R and the modern commercial version of S, TIBCO Spotfire S+. "
 "This makes it possible to convert different versions of S code to run on "
 "R without major code modifications."
+msgstr ""
+
+msgid "R screenshot"
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:57
@@ -159,11 +162,27 @@ msgid ""
 "https://cran.r-project.org/web/packages/available_packages_by_name.html"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:91
+#: ../../build/doc/overview/R_overview.rst:92
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:93
+#: ../../build/doc/overview/R_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
 msgstr ""
 

@@ -1,0 +1,123 @@
+Credits
+================================================================================
+
+* Developers and project maintainers
+* Authors and reviewers of the documentation
+* Translators
+* https://live.osgeo.org/en/sponsors.html
+
+.. speaker notes
+  As you can see listed here, many people have been involved in packaging the
+  Open Source Software for OSGeoLive,
+  and literally thousands of developers have helped build the software we package.
+  Thank you.
+
+
+Project Steering Committee
+--------------------------------------------------------------------------------
+
+* Angelos Tzotsos (Chair)
+* Brian M Hamlin
+* Alex Mandel
+* Johan Van de Wauw
+* Bas Couwenberg
+* Massimo De Stefano
+* Astrid Emde
+* Nicolas Roelandt
+* Vicky Vergara
+* Enock Seth Nyamador
+
+.. speaker notes
+  As you can see listed here, many people have been involved in packaging the
+  Open Source Software for OSGeoLive, and literally thousands of developers
+  have helped build the software we package.  Thank you.  I'd like to
+  especially thank the Project Steering Committee who have led the coordination
+  and core packaging of the OSGeoLive project.
+
+Get involved
+--------------------------------------------------------------------------------
+
+Become a member of our team
+
+* Join our `Mailing List <https://lists.osgeo.org/mailman/listinfo/osgeolive>`__ and introduce yourself
+* Discuss with us on `Discourse <https://discourse.osgeo.org/c/osgeolive/7>`__ 
+* Take part in our meetings 
+
+* There are two ways you can help
+
+  * Help improve OSGeoLive website and documentation
+  * Submit new projects
+
+Improving OSGeoLive Documentation
+--------------------------------------------------------------------------------
+
+* Proof-read, test and correct Quickstarts and Overviews
+* There is a good possibility to get to know cool software!
+* Translate and improve the documentation
+* Translation is made in `OSGeo Weblate <https://weblate.osgeo.org/projects/osgeolive/>`__
+* Local Chapters can easily get involved here
+* No technical experience necessary
+
+Try out OSGeoLive
+--------------------------------------------------------------------------------
+
+* Cloud deployments
+* `remote.osgeo.org <https://remote.osgeo.org/>`__
+
+.. revealjs-break::
+
+.. image:: /images/presentation/remote_osgeo_org_vm_list.png
+    :height: 400
+    :align: center
+
+.. revealjs-break::
+
+.. image:: /images/presentation/remote_osgeo_org_desktop.png
+    :height: 400
+    :align: center
+
+
+Join us at the FOSS4G Europe Community Sprint on Saturday/Sunday in Mostar
+--------------------------------------------------------------------------------
+
+* 19.-20. of July 2025
+* https://2025.europe.foss4g.org/schedule/community-sprint/
+* Everyone is welcome!
+
+Sponsors
+--------------------------------------------------------------------------------
+
+=============== ================ ====================
+=============== ================ ====================
+OSGeo            UCD ICE          DebianGIS
+|osgeo_logo|     |ucdice_logo|    |debian_logo|
+=============== ================ ====================
+
+
+.. speaker notes
+  And we'd also like to acknowledge the contributions of sponsors and supporting organisations:
+  The OSGeo Foundation,
+  the Information Center for the Environment at the University of California,
+  the DebianGIS and UbuntuGIS projects,
+
+Try out OSGeoLive
+--------------------------------------------------------------------------------
+
+.. image:: /images/osgeolive-logo/osgeolive-banner.png
+
+.. speaker notes
+  Time for questions.
+  This has just been a taster,
+  do you want to know more?
+  You can see project descriptions or download OSGeoLive from the website.
+  The OSGeo Foundation provides links to all things GeoSpatial and Open Source.
+  There are many conferences worth attending,
+  in particular the annual FOSS4G conference.
+  Georepublic provides commercial support in Japan and Germany.
+
+.. |osgeo_logo| image:: /images/logos/OSGeo_compass_with_text_square.png
+                        :height: 50
+.. |ucdice_logo| image:: /images/logos/ucd_ice_logo.png
+                        :height: 50
+.. |debian_logo| image:: /images/logos/debiangis_mollweide.png
+                        :height: 50

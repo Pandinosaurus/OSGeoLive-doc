@@ -4,22 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"mapproxy_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:18
 msgid "MapProxy"
@@ -54,9 +55,17 @@ msgstr ""
 "<openlayers_overview>` web klienshez, egy központi SDI-hez, mely az "
 "elosztott WMS szerverek tucatjait egyesíti."
 
+#: ../../build/doc/overview/mapproxy_overview.rstNone
+msgid "mapproxy screenshot"
+msgstr "mapproxy képernyőképek"
+
 #: ../../build/doc/overview/mapproxy_overview.rst:35
 msgid "Core Features"
 msgstr "Alapfunkciók"
+
+#: ../../build/doc/overview/mapproxy_overview.rstNone
+msgid "MapProxy demo"
+msgstr "MapProxy demó"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:49
 msgid "Input sources:"
@@ -159,7 +168,7 @@ msgid ""
 "create ``GetMap`` responses from cache with support for free-zooming and any"
 " projection (for any Desktop GIS)"
 msgstr ""
-" ``GetMap`` válaszok létrehozása a gyorsítótárból, a szabad nagyítás és "
+"``GetMap`` válaszok létrehozása a gyorsítótárból, a szabad nagyítás és "
 "tetszőleges vetület támogatásával (bármelyik asztali GIS-hez)"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:71
@@ -211,7 +220,7 @@ msgstr "Hatékony eszközök:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:84
 msgid ""
-"efficient seed tool for cache pre-filling that can seed polygon areas  with "
+"efficient seed tool for cache pre-filling that can seed polygon areas with "
 "Shapefiles, GeoJSON, PostGIS or WKT geometries"
 msgstr ""
 "hatékony eszköz a gyorsítótár előzetes feltöltésére, amely sokszög "
@@ -318,3 +327,19 @@ msgstr "Gyorstalpaló"
 #: ../../build/doc/overview/mapproxy_overview.rst:127
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/mapproxy_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "OSGeo Projekt"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo közösség"

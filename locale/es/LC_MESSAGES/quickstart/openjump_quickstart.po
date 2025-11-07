@@ -4,27 +4,29 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vicky Vergara <vicky@georepublic.de>, 2020
-# MarPetra <mvergaratrejo@gmail.com>, 2020
+# Vicky Vergara <vicky@georepublic.de>, 2022
+# MarPetra <mvergaratrejo@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"openjump_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:20
 msgid "OpenJUMP GIS Quickstart"
-msgstr "Inicio rápido de OpenJUMP GIS "
+msgstr "Inicio rápido de OpenJUMP GIS"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:22
 msgid ""
@@ -34,6 +36,10 @@ msgstr ""
 "OpenJUMP es un programa SIG de escritorio que permite una fácil "
 "visualización y edición de datos SIG vectoriales. La edición PLUS también "
 "admite el análisis de datos ráster."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:26
+msgid "Contents"
+msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:29
 msgid "Start OpenJUMP"
@@ -215,9 +221,9 @@ msgid ""
 " to a small black crosshair when you move it over the Map View."
 msgstr ""
 "A continuación, haga clic en el botón que muestra una cruz azul con un "
-"cuadrado amarillo en el medio, la herramienta  :guilabel:`Move Vertex Tool`"
-"  (pasar el cursor sobre los botones le da una descripción del botón). Ahora"
-" debería ver que el cursor del mouse cambia a una pequeña cruz negra cuando "
+"cuadrado amarillo en el medio, la herramienta :guilabel:`Move Vertex Tool` ("
+"pasar el cursor sobre los botones le da una descripción del botón). Ahora "
+"debería ver que el cursor del mouse cambia a una pequeña cruz negra cuando "
 "lo mueve sobre la Vista del mapa."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:93
@@ -273,3 +279,19 @@ msgid ""
 msgstr ""
 "La última versión de OpenJUMP se puede encontrar aquí: "
 "https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"

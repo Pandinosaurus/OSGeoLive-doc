@@ -32,7 +32,7 @@ Start the service and view the demo
 
 MapProxy has flexible deployment options and you can integrate it in Apache for example. But you can also start MapProxy as a standalone service, which is the best option to get started.
 
-#. To start MapProxy as a standalone service click on :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`.
+#. To start MapProxy as a standalone service click on |menu_mapproxy-Start|.
 
 #. Open Firefox and navigate to `<http://localhost:8011/demo>`_
 
@@ -42,16 +42,12 @@ The MapProxy demo page contains a rudimentary WMS and tile client for each confi
 View in desktop GIS
 ===================
 
-You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The service URL is: `<http://localhost:8011/service?>`_
+You can add MapProxy in any WMS Desktop GIS like QGIS or gvSIG. The service URL
+is: `<http://localhost:8011/service?>`_
 
-The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer. 
+The MapProxy example configuration contains a few layers that use different map
+engines and map data. See below for more details about each layer.
 
-.. figure:: /images/projects/mapproxy/mapproxy_udig.png
-  :scale: 70 %
-  :alt: MapProxy example in uDig
-  :align: center
-  
-  Single WMS layer with data from two cascaded sources and `FeatureInformation` from one source.
 
 Available layers
 ----------------
@@ -59,9 +55,8 @@ Available layers
 **mapnik**:
   The world population rendered by Mapnik. You don't need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy.
 
-**tilestache**:
-  TileStache is a server that delivers tiles from the Mapnik world population service. This layer demonstrates the ability to include existing tile services in MapProxy and to make them available as WMS.
-  You need to start TileStache with *Start Mapnik & TileStache* before accessing this layer.
+**mapnik_tile**:
+  The world population rendered by Mapnik as tile layer.
 
 **geoserver**:
   The US population rendered by the :doc:`GeoServer <../overview/geoserver_overview>` WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS.
@@ -95,7 +90,7 @@ MapProxy will automatically reload if you change your configuration file.
 What next?
 ==========
 
-* Read the `documentation of MapProxy <../../mapproxy/index.html>`_
+* Read the `documentation of MapProxy <https://localhost/mapproxy/index.html>`__
 
 * Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)
 
